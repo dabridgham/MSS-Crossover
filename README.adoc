@@ -4,3 +4,18 @@ A KiCad project for a circuit board that implements an
 https://www.modularsignalsystem.info/index.html[MSS] Crossover node.
 It includes the block detection circuit and the crossover wiring
 between two RJ45 connectors.
+
+== Notes
+
+The ``aux`` screw terminal is there to give you access to the
+``local`` and ``gnd`` signals from MSS.  If you have, say, a spur off
+the mainline then you want to be able to assert ``local`` when the
+turnout is thrown.  A contact closure from your switch machine to the
+``aux`` screw terminal handles this.
+
+Alternately, you might want access to the block detection signal for
+some other purpose as well as MSS.  In that case, the ``aux`` screw
+terminal acts as an output of that signal.  Diode D4 acts to separate
+this block detection from all the others in this MSS block.  That is,
+the ``aux`` output will only indicate this one detector.  If you don't
+want that, solder a wire jumper in place of D4.
