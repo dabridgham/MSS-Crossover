@@ -5,29 +5,4 @@ https://www.modularsignalsystem.info/index.html[MSS] Crossover node.
 It includes the block detection circuit and the crossover wiring
 between two RJ45 connectors.
 
-== Notes
-
-Aux::
-The ``aux`` screw terminal is there to give you access to the
-``local`` and ``gnd`` signals from MSS.  If you have, say, a spur off
-the mainline then you want to be able to assert ``local`` when the
-turnout is thrown.  A contact closure from your switch machine to the
-``aux`` screw terminal handles this.
-+
-Alternately, you might want access to the block detection signal for
-some other purpose as well as MSS.  In that case, the ``aux`` screw
-terminal acts as an output of that signal.  Diode D4 acts to separate
-this block detection from all the others in this MSS block.  That is,
-the ``aux`` output will only indicate this one detector.  If you don't
-want that, solder a wire jumper in place of D4.
-+
-Sense Loop::
-You need to run a wire from the hole labeled 'sense loop' through the
-center of the pulse transformer to the other hole labeled 'sense
-loop'.  You then connect one of the DCC wires feeding your track to
-the ``DCC`` one of the screw terminals and the other screw terminal on
-to your track.
-+
-Alternately, you can leave off the sense loop wire and just run your feed
-wire directly through the pulse transformer.  In that case you don't
-need to add the screw terminal to the board.
+See the https://github.com/dabridgham/MSS-Crossover/wiki[wiki] for more information.
