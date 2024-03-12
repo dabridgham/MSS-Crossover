@@ -5,6 +5,8 @@ https://www.modularsignalsystem.info/index.html[MSS] Crossover node.
 It includes the block detection circuit and the crossover wiring
 between two RJ45 connectors.
 
+See the https://github.com/dabridgham/MSS-Crossover/wiki[wiki] for more information.
+
 == Notes
 
 Aux::
