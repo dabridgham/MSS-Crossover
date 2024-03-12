@@ -1,3 +1,4 @@
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Label","MPN"
 "1","1","C1","470n","Device:C","Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm","~","","","FG28X7R1H474KRT06"
 "2","4","D1, D2, D3, D4","1N4148","Device:D_Small_Filled","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","~","","","1N4148FS-ND"
 "3","2","J1, J4","2x-screw","Connector:Screw_Terminal_01x02","Imports:CUI_TB003-500-P02BE","~","","DCC","TB003-500-P02BE"
