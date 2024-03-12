@@ -6,9 +6,3 @@
 "5","1","L1","Murata 56300C","Device:L_Ferrite","myMods:FIS101NL","~","","","56300C"
 "6","1","Q1","2N3904","Transistor_BJT:2N3904","Package_TO_SOT_THT:TO-92_Inline_Wide","https://www.onsemi.com/pub/Collateral/2N3903-D.PDF","","","2N3904TA"
 "7","1","R1","470","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","CF14JT470R"
-
-"Source:","/home/dab/me/model-railroad/electronics/mss-crossover/mss-crossover.kicad_sch"
-"Date:","Tue 12 Mar 2024 01:33:21 PM EDT"
-"Tool:","Eeschema 7.0.11+dfsg-1"
-"Generator:","/home/dab/.config/kicad/plugins/bom_csv_grouped_by_value.py"
-"Component Count:","12"
