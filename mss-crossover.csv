@@ -1,0 +1,16 @@
+"Source:","/home/dab/me/model-railroad/electronics/mss-crossover/mss-crossover.kicad_sch"
+"Date:","Tue 12 Mar 2024 12:33:49 PM EDT"
+"Tool:","Eeschema 7.0.11+dfsg-1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","12"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Label","MPN"
+"1","1","C1","470n","Device:C","Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm","~","","","FG28X7R1H474KRT06"
+"2","4","D1, D2, D3, D4","1N4148","Device:D_Small_Filled","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","~","","","1N4148FS-ND"
+"3","2","J1, J4","2x-screw","Connector:Screw_Terminal_01x02","Imports:CUI_TB003-500-P02BE","~","","DCC","TB003-500-P02BE"
+"4","2","J2, J7","RJ45","Connector:8P8C","Imports:CONN_RJSBE5080_16P13X12P57_AMP","~","","MSS A","RJHSE-5080"
+"5","1","L1","Murata 56300C","Device:L_Ferrite","myMods:FIS101NL","~","","","56300C"
+"6","1","Q1","2N3904","Transistor_BJT:2N3904","Package_TO_SOT_THT:TO-92_Inline_Wide","https://www.onsemi.com/pub/Collateral/2N3903-D.PDF","","","2N3904TA"
+"7","1","R1","470","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~","","","CF14JT470R"
